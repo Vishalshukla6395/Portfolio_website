@@ -33,6 +33,6 @@ A professional portfolio website designed to showcase your skills, projects, and
 ---
 
 ## Live Demo
-Check out the portfolio here: [Live Demo](https://vishalshukla6395.github.io/CodeAlphaFE_portfolio-site/).
+Check out the portfolio here: [Live Demo](https://vishalshukla6395.github.io/Portfolio_website/).
 
 ---
