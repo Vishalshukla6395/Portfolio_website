@@ -544,6 +544,52 @@ body{
   text-decoration: none;
 }
 
+/* Add these styles for the menu button */
+.menu-btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 0;
+  margin: 0 20px;
+  cursor: pointer;
+  display: none; /* Hide by default */
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-btn i {
+  font-size: 30px;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.menu-btn .fa-times {
+  display: none;
+}
+
+.menu-btn.active .fa-bars {
+  display: none;
+}
+
+.menu-btn.active .fa-times {
+  display: block;
+}
+
+/* Show the menu button on smaller screens */
+@media (max-width: 1040px) {
+  .menu-btn {
+    display: flex;
+  }
+
+  .menu-btn i {
+    color: #000;
+  }
+
+  .menu-btn.active i {
+    color: #fff;
+  }
+}
+
 @media (max-width: 1040px){
   header{
     padding: 12px 20px;
